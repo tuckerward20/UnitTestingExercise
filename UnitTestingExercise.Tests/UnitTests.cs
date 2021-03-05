@@ -56,10 +56,13 @@ namespace UnitTestingExercise.Tests
         }
 
         [Fact]
-        public void YourMethodName()
+        public void IsALetter()
         {
             //Arrange
-            var expected = 'h';
+            UnitTestMethods test = new UnitTestMethods();
+            string stuff = "1234567890qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM"
+
+            foreach (char item in stuff)
             //Act
             
             //Assert
@@ -67,7 +70,7 @@ namespace UnitTestingExercise.Tests
         }
 
         [Fact]
-        public void YourMethodName2()
+        public void IsASymbol()
         {
             //Arrange
 

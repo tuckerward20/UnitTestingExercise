@@ -44,14 +44,14 @@ namespace UnitTestingExercise
         }
         // Create 2 methods that will utilize the [Fact] tests you wrote
 
-        public char hMethod()
+        public bool IsASymbol(char input)
         {
-            return 'h';
+            return Char.IsSymbol(input);
         }
 
-        public bool boolMethod()
+        public bool IsALetter(char input)
         {
-            return true;
+            return Char.IsLetter(input);
         }
     }
 }
